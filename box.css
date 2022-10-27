@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 35px;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+}
+nav .mini h2 {
+    font-size: 25px;
+}
+nav .navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+nav .navbar ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(office2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+main .container h1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 3px outset #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 56px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+main .container strong {
+    font-size: 36px;
+}
+main .container p {
+    font-size: 30px;
+    color: #fff;
+}
+main .container button {
+    background-color: transparent;
+    padding: 9px 25px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
